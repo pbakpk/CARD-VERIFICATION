@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Verification Portal</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; display: flex; justify-content: center; }
+    .card-container { background: #fff; width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow: hidden; }
+    .header { background: #0f2744; color: white; padding: 20px; text-align: center; }
+    .header h2 { margin: 0 0 5px 0; font-size: 20px; }
+    .status-badge { background: #e8f5e9; color: #2e7d32; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin: 15px auto 0; font-size: 13px; }
+    .profile-section { text-align: center; padding: 20px 20px 10px; }
+    .profile-img { width: 130px; height: 160px; object-fit: cover; border-radius: 8px; border: 2px solid #ddd; }
+    .name { font-size: 20px; font-weight: bold; margin: 10px 0 2px; color: #1a2a4b; text-transform: uppercase; }
+    .designation { color: #555; font-size: 14px; margin-bottom: 15px; font-weight: 600; }
+    .info-list { padding: 0 20px 20px; }
+    .info-row { border-bottom: 1px solid #eee; padding: 10px 0; }
+    .info-row:last-child { border-bottom: none; }
+    .label { font-size: 11px; color: #888; text-transform: uppercase; font-weight: bold; }
+    .value { font-size: 14px; color: #222; margin-top: 3px; font-weight: 500; }
+  </style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="header">
+    <h2>Card Verification System</h2>
+    <div class="status-badge">● Card Information Found</div>
+  </div>
+
+  <div class="profile-section">
+    <!-- Tasveer ka naam repository mein profile.jpg rakhein -->
+    <img src="profile.jpg" alt="Photo" class="profile-img">
+    <div class="name">WALEED</div>
+    <div class="designation">Advocate</div>
+  </div>
+
+  <div class="info-list">
+    <div class="info-row">
+      <div class="label">Father Name</div>
+      <div class="value">Javed Khan</div>
+    </div>
+    <div class="info-row">
+      <div class="label">NIC No.</div>
+      <div class="value">42501-9733731-7</div>
+    </div>
+    <div class="info-row">
+      <div class="label">Enrollment / Card #</div>
+      <div class="value">C#1937</div>
+    </div>
+    <div class="info-row">
+      <div class="label">Address</div>
+      <div class="value">Charsadda Road, Landi Sarak, Bagh Colony, Peshawar</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
